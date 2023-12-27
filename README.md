@@ -5,5 +5,5 @@ See https://toltec-dev.org/#install-toltec for more information.
 To install Toltec, connect your reMarkable to Wi-Fi and paste the following lines in an SSH session:
 ```bash
 wget http://raw.githubusercontent.com/UniqueName992/rm2-bootstrap-temp/main/bootstrap
-echo "91690831e7ead992d357bcc6e233dfaf5a663b57990f6e93c7cd7c38d595e8aa  bootstrap" | sha256sum -c && bash bootstrap
+echo "a94ddad2aae1b560f5ff168dc309d4c4e39a4723136010253c31cdf3c5c5faad  bootstrap" | sha256sum -c && bash bootstrap
 ```
