@@ -1,6 +1,6 @@
 A replacement Bootstrap containing a different version of `wget` which works on Remarkable tablets post 3.6.
 
-See http://toltec-dev.org/bootstrap for more information.
+See https://toltec-dev.org/#install-toltec for more information.
 
 To install Toltec, connect your reMarkable to Wi-Fi and paste the following lines in an SSH session:
 ```bash
