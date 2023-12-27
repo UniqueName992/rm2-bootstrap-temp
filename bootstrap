@@ -79,7 +79,7 @@ check-installed() {
 # Install a local wget binary which supports TLS (the original one
 # installed on the reMarkable does not) in the PATH
 wget-bootstrap() {
-    local wget_remote=https://github.com/UniqueName992/rm2-bootstrap-temp/raw/main/wget_busybox_armv7l_abihf_musl_Linux
+    local wget_remote=http://raw.githubusercontent.com/UniqueName992/rm2-bootstrap-temp/main/wget_busybox_armv7l_abihf_musl_Linux
     local wget_checksum=ec215780dc74381fd5464d11b1e8efe9736f332acb237706c90720b4baa641ca
 
     if [[ ! -x $wget_path ]]; then
